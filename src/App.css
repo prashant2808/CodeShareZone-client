@@ -1,0 +1,16 @@
+.App {
+  height: auto;
+}
+
+.main-loading {
+  color: white;
+  font-size: 10rem;
+  margin: auto;
+}
+
+@media print {
+  .App {
+    height: 100%;
+    background-color: rgb(33, 33, 33) !important;
+  }
+}
